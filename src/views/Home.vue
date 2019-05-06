@@ -1,43 +1,9 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <h1>This is home</h1>
     <Categories />
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    <p>asd</p>
-    
-
+    <div class="space"></div>
   </div>
-
 
 </template>
 
@@ -50,10 +16,14 @@ export default {
     Categories
   }
 }
+
+
+
 </script>
-<style lang="stylus" scoped>
-  .home
-    img
-      display: none;
+
+<style lang="scss" scoped>
+  .space {
+    height: 1000px;
+  }
 
 </style>
